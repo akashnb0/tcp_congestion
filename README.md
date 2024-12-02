@@ -60,6 +60,7 @@ python tcp_server.py
 python tcp_client.py
 ```
 **Output**:
+
 ![Client/Server Interaction Output: SERVER](screenshot/output1.jpg)
 ![Client/Server Interaction Output: CLIENT](screenshot/output2.jpg)
 
@@ -76,6 +77,7 @@ python tcp_client_cong.py
 ```
 
 **Output**:
+
 ![Client/Server Interaction Output: SERVER](screenshot/output3.jpg)
 ![Client/Server Interaction Output: CLIENT](screenshot/output4.jpg)
 ---
@@ -91,6 +93,7 @@ python tcp_client_bw.py
 ```
 
 **Output**:
+
 ![Client/Server Interaction Output: SERVER](screenshot/output5.jpg)
 ![Client/Server Interaction Output: CLIENT](screenshot/output6.jpg)
 
@@ -107,6 +110,7 @@ python tcp_client_load.py
 ```
 
 **Output**:
+
 ![Client/Server Interaction Output: SERVER](screenshot/output7.jpg)
 ![Client/Server Interaction Output: CLIENT](screenshot/output8.jpg)
 
