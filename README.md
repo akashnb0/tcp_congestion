@@ -50,7 +50,7 @@ This project involves multiple segments that simulate different aspects of TCP c
 ```
 
 
-## Segment 1: tcp_server.py and tcp_client.py
+## Segment 1: Initial TCP Communication - Server and Client Interaction for Data Transfer
 
 In this segment, the `tcp_server.py` and `tcp_client.py` files demonstrate a basic TCP client-server communication system. The server listens on a specified IP address and port, waiting for a client to connect. Once a connection is established, the server accepts and processes the data sent by the client. The client, on the other hand, connects to the server, sends a simple request, and waits for a response. This setup simulates a basic communication scenario where data is transmitted in both directions between the client and the server. The system primarily focuses on establishing a reliable connection and handling basic data exchange.
 
@@ -66,7 +66,7 @@ python tcp_client.py
 
 ---
 
-## Segment 2: tcp_server_cong.py and tcp_client_cong.py
+## Segment 2: Implementing TCP Congestion Control - Enhancing Network Stability and Flow Control
 
 In this segment, the `tcp_server_cong.py` and `tcp_client_cong.py` files introduce the concept of TCP congestion control. The server and client interact in a way that simulates congestion control mechanisms, such as controlling the window size to adjust the flow of data. The server is responsible for receiving the client’s requests, processing them, and sending back a response while implementing congestion control strategies. The client sends data while taking into account congestion signals from the server. This segment tests the ability of the system to handle congestion scenarios by adjusting the flow of packets based on feedback received during the communication process.
 
@@ -82,7 +82,7 @@ python tcp_client_cong.py
 ![Client/Server Interaction Output: CLIENT](screenshot/output4.jpg)
 ---
 
-## Segment 3: tcp_server_bw.py and tcp_client_bw.py
+## Segment 3: Optimizing TCP Throughput - Bandwidth Control for Efficient Data Transfer
 
 In this segment, the `tcp_server_bw.py` and `tcp_client_bw.py` files are designed to simulate a system that controls and monitors the bandwidth usage between the server and the client. The server and client communicate while tracking the data transfer rate and adjusting the window size based on the available bandwidth. This simulation aims to analyze how bandwidth management can optimize the flow of data and reduce congestion, allowing for more efficient network utilization. The focus is on monitoring the rate of data transfer and adjusting the transmission behavior accordingly.
 
@@ -99,7 +99,7 @@ python tcp_client_bw.py
 
 ---
 
-## Segment 4: tcp_server_load.py and tcp_client_load.py
+## Segment 4: Load Balancing in TCP Networks - Distributing Requests for Improved Scalability and Reliability
 
 In this segment, the `tcp_server_load.py` and `tcp_client_load.py` files implement a load balancing mechanism where multiple backend servers handle requests from the client. The load balancer distributes the incoming client requests to different backend servers in a round-robin manner, ensuring even distribution of load. The client sends data requests to the load balancer, which forwards them to one of the backend servers. This setup aims to test the effectiveness of load balancing in optimizing server performance by preventing any one server from becoming overloaded.
 
