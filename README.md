@@ -1,4 +1,4 @@
-# High Speed Networks TCP Congestion Control with Adaptive Window Sizing
+# Optimizing TCP Performance through Dynamic Congestion Control, Bandwidth Adjustment, and Load Balancing Techniques
 
 This project demonstrates various aspects of TCP congestion control, including basic communication, congestion control, bandwidth management, and load balancing. It aims to analyze and improve the performance of TCP connections using adaptive window sizing techniques for congestion control.
 
